@@ -30,7 +30,9 @@ twitter_username: ""
 github_username:  ConsciousAtom
 
 # Build settings
-theme: beautiful-jekyll-theme #minima
+# theme: daattali/beautiful-jekyll #beautiful-jekyll-theme #minima
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
 plugins:
   - jekyll-feed
 
