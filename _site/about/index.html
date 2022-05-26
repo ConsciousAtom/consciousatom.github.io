@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+   <!-- for mathjax support -->
+  
+
   
 
   
@@ -12,8 +15,10 @@
   <title>About</title>
 
   
+  <meta name="author" content="Conscious Atom">
+  
 
-  <meta name="description" content="This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) You can find the source code for Minima at GitHub: [jekyll][jekyll-organization] / [minima](https://github.com/jekyll/minima) You can find the source code for Jekyll at GitHub: [jekyll][jekyll-organization]...">
+  <meta name="description" content="What are you expecting?">
 
   
 
@@ -73,8 +78,10 @@
   
   <meta property="og:site_name" content="Conscious Atom">
   <meta property="og:title" content="About">
-  <meta property="og:description" content="This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) You can find the source code for Minima at GitHub: [jekyll][jekyll-organization] / [minima](https://github.com/jekyll/minima) You can find the source code for Jekyll at GitHub: [jekyll][jekyll-organization]...">
+  <meta property="og:description" content="What are you expecting?">
 
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/atom.png">
   
 
   
@@ -90,8 +97,10 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="About">
-  <meta property="twitter:description" content="This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) You can find the source code for Minima at GitHub: [jekyll][jekyll-organization] / [minima](https://github.com/jekyll/minima) You can find the source code for Jekyll at GitHub: [jekyll][jekyll-organization]...">
+  <meta property="twitter:description" content="What are you expecting?">
 
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/atom.png">
   
 
   
@@ -114,14 +123,111 @@
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto"></ul>
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
   </div>
 
   
 
   
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/atom.png" />
+        </a>
+      </div>
+    </div>
+  
 
 </nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Welcome to Jekyll!", \
+          "category" : "", \
+          "url"      : "/2022-05-26-welcome-to-jekyll/", \
+          "date"     : "May 26, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Sample blog post", \
+          "category" : "test", \
+          "url"      : "/2022-05-26-t/", \
+          "date"     : "May 26, 2022" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "404", \
+          "category" : "page", \
+          "url"      : "/404.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "About", \
+          "category" : "page", \
+          "url"      : "/about/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "About me", \
+          "category" : "page", \
+          "url"      : "/aboutme/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "My website", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
 
 
 
@@ -162,16 +268,7 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
-
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
+      <p>What are you expecting?</p>
 
 
       
@@ -187,10 +284,29 @@
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      <ul class="list-inline text-center footer-links"></ul>
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="mailto:consciousatom@proton.me" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/ConsciousAtom" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li></ul>
 
       
       <p class="copyright text-muted">
+      
+        Conscious Atom
+        &nbsp;&bull;&nbsp;
       
       2022
 
