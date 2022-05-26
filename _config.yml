@@ -26,6 +26,7 @@ author: Conscious Atom
 
 navbar-links:
   About Me: "aboutme"
+  Tags: "tags"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -57,6 +58,8 @@ feed_show_tags: true
 
 # Add a search button to the navbar
 post_search: true
+
+remove-ads: true
 
 navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
