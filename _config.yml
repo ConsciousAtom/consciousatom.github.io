@@ -27,6 +27,7 @@ author: Conscious Atom
 navbar-links:
   About Me: "aboutme"
   Tags: "tags"
+  History: "history"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"

@@ -10,25 +10,35 @@
     
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Work better</title>
         <description>
           
-          You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...
+          How to organize time better is crucial.
+
+References:
+
+Mantra
+
+System Optimization
+
         </description>
-        <pubDate>Thu, 26 May 2022 14:40:34 +0000</pubDate>
-        <link>http://localhost:4000/2022-05-26-welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022-05-26-welcome-to-jekyll/</guid>
+        <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2022-05-27-work-better/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-05-27-work-better/</guid>
       </item>
     
       <item>
-        <title>Sample blog post</title>
+        <title>Books and Thoughts</title>
         <description>
-          Each post also has a subtitle - 
-          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
+          
+          本月观影居多, 读书略少. 本质上还是沉浸于希望从一蹴而就中获得即时奖励.
+
+开这个博客的原因之一正是因读了《日常生活中的自我呈现》, 希望能够在人生的戏台上塑造起一个独立的角色, 而不必受限于错综复杂的人际关系. 使用豆瓣亦然, 在一个无人认识自己的地方, 更能自由地进行表述.
+
         </description>
-        <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2022-05-26-t/</link>
-        <guid isPermaLink="true">http://localhost:4000/2022-05-26-t/</guid>
+        <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/thoughts/202205</link>
+        <guid isPermaLink="true">http://localhost:4000/thoughts/202205</guid>
       </item>
     
   </channel>
